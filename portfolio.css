@@ -55,3 +55,128 @@ img{
     width: 300px;
     height: 300px;
 }
+@media (max-width: 768px) {
+    /* Ajustes generales para pantallas con un ancho máximo de 768px */
+    
+    body {
+        background-color: lightpink; /* Puedes ajustar el color si lo deseas */
+    }
+
+    h1 {
+        overflow: hidden;
+        text-align: left;
+        font-size: 25%; /* Ajusta el tamaño de fuente según sea necesario */
+    }
+
+    h2 {
+        word-wrap: break-word; /* Permite el ajuste de línea para palabras largas */
+    overflow-wrap: break-word; /* Compatibilidad adicional para ajuste de línea */
+        text-align: left;
+        font-size: 25%; /* Ajusta el tamaño de fuente según sea necesario */
+    }
+
+    p {
+        overflow: hidden;
+        text-align: left;
+        font-size: 10% /* Ajusta el tamaño de fuente según sea necesario */
+    }
+
+    img {
+        margin-left: 0; /* Elimina el margen izquierdo para que se centre mejor */
+        width: 20em;
+    height: 20em;
+   
+        height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    }
+
+    .estilo {
+        font-size: 100%; /* Ajusta el tamaño de fuente según sea necesario */
+    }
+
+    #tamaño {
+        width: 50%; /* Ajusta el ancho al 100% del contenedor */
+        height: fit-content; /* Ajusta la altura automáticamente para mantener la proporción */
+    }
+
+    .credito {
+        text-align: left; /* Alinea el texto al centro en lugar de a la derecha para pantallas más pequeñas */
+    }
+    .centrado{
+        font-size: 0px;
+    }
+    .container{
+        width: 50%;
+    }
+
+}
+@media (max-width: 1366px) {
+    body {
+        background-color: lightpink; /* Color de fondo */
+    }
+
+    h1 {
+        font-size: 0px; /* Tamaño de fuente ajustado para pantallas más pequeñas */
+    }
+
+    h2 {
+        font-size: 0px; /* Tamaño de fuente ajustado para pantallas más pequeñas */
+    }
+
+    p {
+        font-size: 0px; /* Tamaño de fuente ajustado para párrafos */
+    }
+
+    img {
+        width: 15em; /* Ancho ajustado de la imagen */
+        align-content: center;
+    }
+
+    .estilo {
+        font-size: 110%; /* Tamaño de fuente ajustado para mejor legibilidad */
+    }
+
+    #tamaño {
+        align-content: center;
+        width: 40%; /* Ancho del 80% del contenedor */
+    }
+
+    .container {
+        width: 90%; /* Ancho del contenedor ajustado */
+    }
+}
+@media (max-width: 320px) {
+    body {
+        background-color: lightpink; /* Color de fondo ajustado */
+    }
+
+    h1 {
+        font-size: 12px; /* Tamaño de fuente ajustado para <h1> */
+    }
+
+    h2 {
+        font-size: 10px; /* Tamaño de fuente ajustado para <h2> */
+    }
+
+    p {
+        font-size: 8px; /* Tamaño de fuente ajustado para párrafos */
+    }
+
+    img {
+        width: 100%; /* Ajusta la imagen al 100% del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+
+    .estilo {
+        font-size: 100%; /* Tamaño de fuente ajustado */
+    }
+
+    #tamaño {
+        width: 120%; /* Ancho al 100% del contenedor */
+    }
+
+    .container {
+        width: 100%; /* Ancho del contenedor al 100% del contenedor */
+    }
+}
+
+     
